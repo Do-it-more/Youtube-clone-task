@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        fieldset{
+            height: 2%;
+            width: 25vw;
+            border-color: aqua;
+            padding: 10px;
+            margin: 150px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form>
+            <fieldset>
+                <legend>Registration Form</legend>
+                <label for="salutation">Salutation</label><br>
+
+                <select>
+                    <option>None</option>
+                    <option value="Mr">Mr</option>
+                    <option value="Ms">Ms</option>
+                    <option value="Mrs">Mrs</option>
+                    <option value="Dr">Dr</option>
+                </select>
+                
+                
+                
+                
+                <div class="fname">
+                    <tr>
+                        <label for="name">First name</label>
+                        <input type="text" name="name" value="" required>
+                    </tr><br>
+                </div>
+                <div class="lname">
+                    <tr>
+                        <label for="name">last name</label>
+                        <input type="text" name="name" value="" required>
+                    </tr><br>
+                </div>
+                <div class="gender">
+                    <tr>
+                        <label for="gender">Gender</label>
+                        <input type="radio" name="gender" value="Male">Male
+                        <input type="radio" name="gender" value="Female">Female
+                    </tr><br>
+                </div>
+                <div class="email">
+                    <tr>
+                        <label for="email">E-mail</label>
+                        <input type="email" name="name" value="" required>
+                    </tr><br>
+                </div>
+                <div class="dob">
+                    <tr>
+                        <label for="DOB">Date of Birth</label>
+                        <input type="date" name="name" value="" required>
+                    </tr><br>
+                </div>
+             
+                <label for="address">Address</label> 
+                <address>
+                    <textarea id="address" name="address" rows="10" placeholder="Enter your address here"></textarea>
+
+                </address>
+                
+         
+            
+                <div class="checkbox">
+                    <tr>
+                        <input type="checkbox" name="checkbox" value="" required>
+                        <label for="checkbox">I agree all Terms and Condition</label>
+                    </tr><br>
+                </div>
+                <div class="btn">
+                    <tr>
+                        <button> Submit</button>
+                    </tr>
+                </div>
+            </fieldset>
+        </form>
+    </div>   
+</body>
+</html>
